@@ -1,10 +1,16 @@
 import './App.css';
+import NavBar from './components/NavBar.jsx';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Accueil from './pages/accueil/Accueil.jsx';
 
 function App(){
   return (
-    <>
-    <div className="bg-purple-800 w-full"></div>
-    </>
+    <Router>
+    <NavBar />
+    <Routes>
+        <Route path='/' element={<Accueil />} />
+    </Routes>
+    </Router>
   )
 }
 export default App

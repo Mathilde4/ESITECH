@@ -1,0 +1,9 @@
+.navbar-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-ul li{
+    padding: 0 3vw;
+    font-size: large;
+    font-weight: 700;
+}
