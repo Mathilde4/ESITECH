@@ -36,10 +36,9 @@ function Accueil(){
         <ImageSlider slides={slides}>
         </ImageSlider>
         </div>
-        <Card image={html1} text={"Vous cherchez à créer un site web attrayant sans vous ruiner ? En tant que développeur passionné, je vous propose des solutions de création de sites web à des prix accessibles. Que vous ayez besoin d’un site vitrine, d’un blog ou d’une boutique en ligne, je mets mon expertise à votre service pour réaliser un site sur mesure qui répondra à vos besoins spécifiques. Profitez d’un design moderne, d’une navigation intuitive et d’une optimisation pour les moteurs de recherche, le tout sans compromettre votre budget. Contactez-moi dès aujourd'hui pour discuter de votre projet et obtenir un devis gratuit !"}></Card>
-        <Card image={flutter} text={text}></Card>
-        <Card image={javaLogo} text={text}></Card>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste animi similique neque exercitationem blanditiis, aspernatur molestias molestiae ipsam ex voluptas ipsa est ea ad quo inventore earum enim consequatur praesentium?</p>
+        <Card image={html1} text={"Chez ESITECH, nous créons des sites web rapides, sécurisés et faciles à utiliser qui fonctionnent sur tous les navigateurs, pour que vous puissiez rejoindre vos clients partout. Nous aidons les entreprises et les startups à créer des sites e-commerce performants, avec des fonctionnalités de paiement sécurisées et des expériences d'achat personnalisées, pour booster vos ventes et votre visibilité en ligne. Nous sommes là pour vous aider à développer votre site web et votre boutique en ligne !"}></Card>
+        <Card image={flutter} text={"Chez ESITECH, nous créons des applications mobiles qui fonctionnent à la fois sur téléphone et tablette, pour que vous puissiez rejoindre vos clients partout. Nous aidons les entreprises et les startups à créer des applications rapides, sécurisées et faciles à utiliser, pour atteindre un public plus large. Nous sommes là pour vous aider à développer votre application mobile !"}></Card>
+        <Card image={javaLogo} text={"Chez ESITECH, nous créons des applications de bureau qui fonctionnent sur Windows. Nous aidons les entreprises et les startups à créer des applications rapides, sécurisées et faciles à utiliser, pour atteindre un public plus large. Nous sommes là pour vous aider à développer votre application de bureau !"}></Card>
         </div>
         <Footer></Footer>
         </div>

@@ -1,21 +1,22 @@
 function Footer(){
+    const today = new Date();
+    const year = today.getFullYear();
     const footerStyle = {
         backgroundColor : "#321951",
+
         height : "5%",
        color : "white",
         width : "100%",
-        position : "fixed",
+        // position : "fixed",
         bottom : 0,
-        textAlign : "center"
+        textAlign : "center",
+        padding: "0.5rem",
     }
-    const textFooterStyle = {
-        width : "100%",
-        height : "100%",
-    }
+
     return(
     
             <div style={footerStyle}>
-        <p>Footer</p>
+        <p>Copyright © {year}, ESITECH. All rights reserved.</p>
             </div>
         
     );
