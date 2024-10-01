@@ -10,7 +10,7 @@ const ImageSlider = ({slides}) =>{
     const slideStyles = {
     width : "100%",
     height : "100%",
-    borderRadius : "10px",
+    borderRadius : "0.5rem",
     backgroundPosition : "center",
     backgroundSize : "cover",
     backgroundImage: `url(${slides[currentIndex].url})`

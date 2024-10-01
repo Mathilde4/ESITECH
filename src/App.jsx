@@ -9,6 +9,7 @@ function App(){
     <NavBar />
     <Routes>
         <Route path='/' element={<Accueil />} />
+        <Route path='/accueil' element={<Accueil />} />
     </Routes>
     </Router>
   )
