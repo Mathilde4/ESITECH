@@ -1,0 +1,74 @@
+.contact-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .contact-card {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .contact-form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for submitted messages */
+  .submitted-messages {
+    margin-top: 20px;
+  }
+  
+  .message-card {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .message-card p {
+    margin: 5px 0;
+  }
+  
+  .message-card button {
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .message-card button:hover {
+    background-color: #e43c3c;
+  }
+  
+p{
+   color: black; 
+}  
