@@ -21,7 +21,7 @@ const Card = ({ image, text }) => {
     backgroundColor: "#321951",
     borderRadius: "0.5rem",
     height: "15rem",
-    color : '#fff',
+    color : 'white',
     textAlign : 'center',
     justifyContent : "center",
     fontSize : '1.25rem',
@@ -39,13 +39,16 @@ const Card = ({ image, text }) => {
     backgroundImage: `url(${image})`,
     borderRadius : "20px",
   };
+  const secondCardText = {
+    color : "white"
+  }
   return (
     <div style={wrapper}>
       <div style={firstCard}>
         <div style={cardImage}></div>
       </div>
       <div style={secondCard}>
-       <p>{text}</p> 
+       <p style={secondCardText}>{text}</p> 
       </div>
     </div>
   );

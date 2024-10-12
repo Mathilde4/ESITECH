@@ -12,11 +12,14 @@ function Footer(){
         textAlign : "center",
         padding: "0.5rem",
     }
+    const footerText = {
+        color : 'white',
+    }
 
     return(
     
             <div style={footerStyle}>
-        <p>Copyright © {year}, ESITECH. All rights reserved.</p>
+        <p style={footerText}>Copyright © {year}, ESITECH. All rights reserved.</p>
             </div>
         
     );
