@@ -1,17 +1,18 @@
 import './App.css';
+import NavBar from './components/NavBar.jsx';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Accueil from './pages/accueil/Accueil.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-import './Contact.jsx';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Contact from './Contact.jsx';
-const App = () => {
+
+function App(){
   return (
     <Router>
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <NavBar />
+    <Routes>
+        <Route path='/' element={<Accueil />} />
+        <Route path='/accueil' element={<Accueil />} />
+    </Routes>
     </Router>
-  );
-};
-
-export default App;
+  )
+}
+export default App
