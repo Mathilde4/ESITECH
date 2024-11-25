@@ -1,0 +1,8 @@
+.card-wrapper {
+    border: #f0f0f0 2px solid;
+    background-color: bisque;
+    height: 23rem;
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
